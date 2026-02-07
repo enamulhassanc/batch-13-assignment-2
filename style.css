@@ -135,3 +135,123 @@ nav {
     color: #ffffff;
     line-height: 20px;
 }
+.choose-container {
+    max-width: 1600px;
+    background-color: #230e3d;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 120px 200px;
+}
+.choose-container .choose-title {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+.choose-cards {
+    display: grid;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 40px;
+    grid-template-areas:
+    "audio mobile mobile"
+    "audio global global"
+    "interview interview resources"
+
+
+}
+.choose-card img {
+    width: 60px;
+    height: 60px;
+}
+.choose-card .card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.choose-card .card-description {
+    line-height: 24px;
+    font-size: 1rem;
+}
+#audio {
+    grid-area: audio;
+    border-radius: 40px;
+    padding: 40px;
+    background-color: rgb(53, 17, 101, 40);
+    align-content: center;    
+}
+#mobile {
+    grid-area: mobile;
+    border-radius: 40px;
+    padding: 40px;
+    background-color: rgb(53, 17, 101, 40);
+    align-content: center;  
+    
+}
+#global {
+    grid-area: global;
+    border-radius: 40px;
+    padding: 40px;
+    background-color: rgb(53, 17, 101, 40);
+    align-content: center;  
+    
+}
+#interview {
+    grid-area: interview;
+    border-radius: 40px;
+    padding: 40px;
+    background-color: rgb(53, 17, 101, 40);
+    align-content: center;  
+   
+}
+#resources {
+    grid-area: resources;
+    border-radius: 40px;
+    padding: 40px;
+    background-color: rgb(53, 17, 101, 40);
+    align-content: center;  
+    
+}
+.episod-container {
+    background-color: #1a0b2e;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 120px 200px;
+    
+}
+.episod-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.episod-videos {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    margin: o auto;
+    max-width: 1200px;
+    
+}
+.episod-video {
+    border-radius: 40px;
+    background-color: rgb(53, 17, 101, 40);
+    padding: 24px;   
+}
+.episod-video iframe {
+    padding-top: 0;
+    
+    
+}
+.episod-video h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.episod-video p {
+    line-height: 24px;
+}
+.episod-video span {
+    color: #00ff88;
+    font-weight: 500;
+    line-height: 24px;
+}
